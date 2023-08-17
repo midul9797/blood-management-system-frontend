@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/autour-one');
+:root {
+  font-family: 'Autour One', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-text-size-adjust: 100%;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+  min-width: 320px;
+  min-height: 100vh;
+  background: linear-gradient(269.42deg, rgba(255, 255, 255, 0.75) 1.4%, rgba(104, 193, 232, 0.75) 100.44%)
+}
+
+h1 {
+  font-size: 2.5em;
+  line-height: 1.1;
+  color: black;
+}
+h2{
+  color: black;
+  font-weight: bold;
+  margin: 0;
+}
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+.btn{
+  background-color:  #1B1961;
+    ;
+    font-size: 20px;
+    color: white;
+    margin-top: 20px;
+    padding: 10px 4vw;
+    margin: 20px;
+}
+.btn:hover{
+  transition: all 0.5s;
+  transform: scale(1.1);
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
